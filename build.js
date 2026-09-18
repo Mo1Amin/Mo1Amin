@@ -56,10 +56,12 @@ function header(theme) {
   .sphere circle { animation: pulse 4s ease-in-out infinite; }
   @keyframes spin { to { transform: rotate(360deg); } }
   @keyframes pulse { 50% { opacity: .15; } }
-  .in { opacity: 0; animation: up .9s cubic-bezier(.2,.7,.2,1) forwards; }
+  .in { animation: up .9s cubic-bezier(.2,.7,.2,1) backwards; }
   .d1 { animation-delay: .15s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; }
-  @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
-  .role { opacity: 0; clip-path: inset(0 100% 0 0); animation: type 12s steps(40) infinite; }
+  @keyframes up { from { opacity: 0; transform: translateY(14px); } }
+  /* The first line is visible even where animations do not run; the others only appear while animating. */
+  .role { opacity: 0; animation: type 12s steps(40) infinite; }
+  .r0 { opacity: 1; }
   .r1 { animation-delay: 4s; } .r2 { animation-delay: 8s; }
   @keyframes type { 0% { opacity: 1; clip-path: inset(0 100% 0 0); } 12% { clip-path: inset(0 0 0 0); } 28% { opacity: 1; clip-path: inset(0 0 0 0); } 33%, 100% { opacity: 0; clip-path: inset(0 0 0 0); } }
   .caret { animation: blink 1s steps(1) infinite; }
