@@ -56,9 +56,6 @@ function header(theme) {
   .sphere circle { animation: pulse 4s ease-in-out infinite; }
   @keyframes spin { to { transform: rotate(360deg); } }
   @keyframes pulse { 50% { opacity: .15; } }
-  .in { animation: up .9s cubic-bezier(.2,.7,.2,1) backwards; }
-  .d1 { animation-delay: .15s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; }
-  @keyframes up { from { opacity: 0; transform: translateY(14px); } }
   /* The first line is visible even where animations do not run; the others only appear while animating. */
   .role { opacity: 0; animation: type 12s steps(40) infinite; }
   .r0 { opacity: 1; }
