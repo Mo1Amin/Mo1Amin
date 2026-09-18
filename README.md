@@ -28,7 +28,7 @@ cares_about: [clean UI, security by default, apps that work offline]
   <a href="https://su.acm.org"><img src="assets/card-acm.svg" width="49%" alt="ACM Sinai Platform"></a>
   <a href="#-med-notes"><img src="assets/card-mednotes.svg" width="49%" alt="MED-NOTES"></a>
   <a href="https://github.com/Mo1Amin/Meqat-Widget"><img src="assets/card-meqat.svg" width="49%" alt="Meqat Widget"></a>
-  <a href="https://mo1amin.github.io/Shfa-H-/"><img src="assets/card-shifa.svg" width="49%" alt="Al-Shifa Hospital"></a>
+  <a href="https://mo1amin.github.io/shifa-hospital-website/"><img src="assets/card-shifa.svg" width="49%" alt="Al-Shifa Hospital"></a>
 </p>
 
 <details>

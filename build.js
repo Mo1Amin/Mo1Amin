@@ -168,7 +168,7 @@ card({
   file: 'card-shifa.svg', icon: '🏥', title: 'Al-Shifa Hospital', accent: '#f472b6', accent2: '#be185d',
   badge: { text: 'live demo', color: '#22c55e' },
   desc: 'Responsive hospital website: services, doctors, news, and sign-in and registration pages and a custom cursor.',
-  stack: ['HTML', 'CSS', 'JavaScript'], footer: 'mo1amin.github.io/Shfa-H-  ↗',
+  stack: ['HTML', 'CSS', 'JavaScript'], footer: 'live demo  ↗',
 });
 
 // Section divider
