@@ -15,7 +15,7 @@
 name: Mohamed Amin Abdelwahed
 role: Software Engineer (full-stack web and desktop)
 studying: Software Engineering, Faculty of Computers & IT, Sinai University
-building: ACM Sinai platform · MED-NOTES · Meqat
+building: ACM Sinai platform · Nuvink · Meqat
 co_founded: Sinai University ACM Student Chapter
 cares_about: [clean UI, security by default, apps that work offline]
 ```
